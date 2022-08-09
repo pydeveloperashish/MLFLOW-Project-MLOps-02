@@ -1,0 +1,6 @@
+conda create --prefix ./env python=3.7.6 -y && conda activate ./env
+
+mlflow run https://github.com/pydeveloperashish/MLFLOW-Project-MLOps -P param1=2 param2=4 --no-conda
+
+mlflow ui --port 8273
+
