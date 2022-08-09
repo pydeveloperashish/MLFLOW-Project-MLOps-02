@@ -1,2 +1,3 @@
 # ignoring env folder
 env/
+mlruns/
