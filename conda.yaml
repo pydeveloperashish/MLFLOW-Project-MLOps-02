@@ -1,4 +1,4 @@
-name: sampledemo
+name: sklearn_demo
 channels:
   - defaults
 dependencies:
@@ -6,4 +6,7 @@ dependencies:
   - python=3.7.6
   - pip:
     - mlflow
+    - scikit-learn
+    - pandas
+    
    
